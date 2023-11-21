@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473BDA5D2B084D47001436EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA5C2B084D47001436EF /* AppDelegate.swift */; };
+		473BDA5F2B084D47001436EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA5E2B084D47001436EF /* SceneDelegate.swift */; };
+		473BDA612B084D47001436EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA602B084D47001436EF /* ViewController.swift */; };
+		473BDA642B084D47001436EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473BDA622B084D47001436EF /* Main.storyboard */; };
+		473BDA662B084D49001436EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473BDA652B084D49001436EF /* Assets.xcassets */; };
+		473BDA692B084D49001436EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473BDA672B084D49001436EF /* LaunchScreen.storyboard */; };
+		473BDA712B084E18001436EF /* CollegesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA702B084E18001436EF /* CollegesTableViewController.swift */; };
+		473BDA752B084FBB001436EF /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA742B084FBB001436EF /* DatabaseManager.swift */; };
+		473BDA782B084FFC001436EF /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 473BDA772B084FFC001436EF /* SQLite */; };
+		473BDA7A2B08501C001436EF /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA792B08501C001436EF /* Course.swift */; };
+		473BDA7C2B085049001436EF /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA7B2B085049001436EF /* College.swift */; };
+		473BDA7E2B08506F001436EF /* Course_Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA7D2B08506F001436EF /* Course_Category.swift */; };
+		473BDA802B085088001436EF /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA7F2B085088001436EF /* Program.swift */; };
+		473BDA822B0928BC001436EF /* CollegesAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA812B0928BC001436EF /* CollegesAddViewController.swift */; };
+		473BDA842B094E02001436EF /* CollegesUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA832B094E02001436EF /* CollegesUpdateViewController.swift */; };
+		473BDA9A2B0C1A1D001436EF /* ProgramsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA992B0C1A1D001436EF /* ProgramsTableViewController.swift */; };
+		473BDA9C2B0C1A74001436EF /* ProgramsAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA9B2B0C1A74001436EF /* ProgramsAddViewController.swift */; };
+		473BDA9E2B0C1A85001436EF /* ProgramsUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA9D2B0C1A85001436EF /* ProgramsUpdateViewController.swift */; };
+		473BDAA02B0C1AAA001436EF /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA9F2B0C1AAA001436EF /* CategoriesTableViewController.swift */; };
+		473BDAA22B0C1B06001436EF /* CategoriesAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDAA12B0C1B06001436EF /* CategoriesAddViewController.swift */; };
+		473BDAA42B0C1B1C001436EF /* CategoriesUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDAA32B0C1B1C001436EF /* CategoriesUpdateViewController.swift */; };
+		473BDAA62B0C1B40001436EF /* CoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDAA52B0C1B40001436EF /* CoursesTableViewController.swift */; };
+		473BDAA82B0C1B7B001436EF /* CoursesAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDAA72B0C1B7B001436EF /* CoursesAddViewController.swift */; };
+		473BDAAA2B0C1B94001436EF /* CoursesUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473BDAA92B0C1B94001436EF /* CoursesUpdateViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		473BDA592B084D47001436EF /* Online_university_system_storyboard_1.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Online_university_system_storyboard_1.5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		473BDA5C2B084D47001436EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		473BDA5E2B084D47001436EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		473BDA602B084D47001436EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		473BDA632B084D47001436EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		473BDA652B084D49001436EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		473BDA682B084D49001436EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		473BDA6A2B084D49001436EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473BDA702B084E18001436EF /* CollegesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesTableViewController.swift; sourceTree = "<group>"; };
+		473BDA742B084FBB001436EF /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		473BDA792B08501C001436EF /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		473BDA7B2B085049001436EF /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		473BDA7D2B08506F001436EF /* Course_Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_Category.swift; sourceTree = "<group>"; };
+		473BDA7F2B085088001436EF /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		473BDA812B0928BC001436EF /* CollegesAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesAddViewController.swift; sourceTree = "<group>"; };
+		473BDA832B094E02001436EF /* CollegesUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesUpdateViewController.swift; sourceTree = "<group>"; };
+		473BDA992B0C1A1D001436EF /* ProgramsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsTableViewController.swift; sourceTree = "<group>"; };
+		473BDA9B2B0C1A74001436EF /* ProgramsAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsAddViewController.swift; sourceTree = "<group>"; };
+		473BDA9D2B0C1A85001436EF /* ProgramsUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsUpdateViewController.swift; sourceTree = "<group>"; };
+		473BDA9F2B0C1AAA001436EF /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		473BDAA12B0C1B06001436EF /* CategoriesAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesAddViewController.swift; sourceTree = "<group>"; };
+		473BDAA32B0C1B1C001436EF /* CategoriesUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesUpdateViewController.swift; sourceTree = "<group>"; };
+		473BDAA52B0C1B40001436EF /* CoursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewController.swift; sourceTree = "<group>"; };
+		473BDAA72B0C1B7B001436EF /* CoursesAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesAddViewController.swift; sourceTree = "<group>"; };
+		473BDAA92B0C1B94001436EF /* CoursesUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesUpdateViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		473BDA562B084D47001436EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473BDA782B084FFC001436EF /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473BDA502B084D47001436EF = {
+			isa = PBXGroup;
+			children = (
+				473BDA5B2B084D47001436EF /* Online_university_system_storyboard_1.5 */,
+				473BDA5A2B084D47001436EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		473BDA5A2B084D47001436EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				473BDA592B084D47001436EF /* Online_university_system_storyboard_1.5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		473BDA5B2B084D47001436EF /* Online_university_system_storyboard_1.5 */ = {
+			isa = PBXGroup;
+			children = (
+				473BDA982B0C1996001436EF /* Courses */,
+				473BDA972B0C1986001436EF /* Categories */,
+				473BDA962B0C197A001436EF /* Programs */,
+				473BDA952B0C18EC001436EF /* Colleges */,
+				473BDA732B084FA6001436EF /* Database */,
+				473BDA722B084F8B001436EF /* Classes */,
+				473BDA5C2B084D47001436EF /* AppDelegate.swift */,
+				473BDA5E2B084D47001436EF /* SceneDelegate.swift */,
+				473BDA602B084D47001436EF /* ViewController.swift */,
+				473BDA622B084D47001436EF /* Main.storyboard */,
+				473BDA652B084D49001436EF /* Assets.xcassets */,
+				473BDA672B084D49001436EF /* LaunchScreen.storyboard */,
+				473BDA6A2B084D49001436EF /* Info.plist */,
+			);
+			path = Online_university_system_storyboard_1.5;
+			sourceTree = "<group>";
+		};
+		473BDA722B084F8B001436EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				473BDA792B08501C001436EF /* Course.swift */,
+				473BDA7B2B085049001436EF /* College.swift */,
+				473BDA7D2B08506F001436EF /* Course_Category.swift */,
+				473BDA7F2B085088001436EF /* Program.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		473BDA732B084FA6001436EF /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				473BDA742B084FBB001436EF /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		473BDA952B0C18EC001436EF /* Colleges */ = {
+			isa = PBXGroup;
+			children = (
+				473BDA702B084E18001436EF /* CollegesTableViewController.swift */,
+				473BDA812B0928BC001436EF /* CollegesAddViewController.swift */,
+				473BDA832B094E02001436EF /* CollegesUpdateViewController.swift */,
+			);
+			path = Colleges;
+			sourceTree = "<group>";
+		};
+		473BDA962B0C197A001436EF /* Programs */ = {
+			isa = PBXGroup;
+			children = (
+				473BDA992B0C1A1D001436EF /* ProgramsTableViewController.swift */,
+				473BDA9B2B0C1A74001436EF /* ProgramsAddViewController.swift */,
+				473BDA9D2B0C1A85001436EF /* ProgramsUpdateViewController.swift */,
+			);
+			path = Programs;
+			sourceTree = "<group>";
+		};
+		473BDA972B0C1986001436EF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				473BDA9F2B0C1AAA001436EF /* CategoriesTableViewController.swift */,
+				473BDAA12B0C1B06001436EF /* CategoriesAddViewController.swift */,
+				473BDAA32B0C1B1C001436EF /* CategoriesUpdateViewController.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		473BDA982B0C1996001436EF /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				473BDAA52B0C1B40001436EF /* CoursesTableViewController.swift */,
+				473BDAA72B0C1B7B001436EF /* CoursesAddViewController.swift */,
+				473BDAA92B0C1B94001436EF /* CoursesUpdateViewController.swift */,
+			);
+			path = Courses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		473BDA582B084D47001436EF /* Online_university_system_storyboard_1.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473BDA6D2B084D49001436EF /* Build configuration list for PBXNativeTarget "Online_university_system_storyboard_1.5" */;
+			buildPhases = (
+				473BDA552B084D47001436EF /* Sources */,
+				473BDA562B084D47001436EF /* Frameworks */,
+				473BDA572B084D47001436EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Online_university_system_storyboard_1.5;
+			packageProductDependencies = (
+				473BDA772B084FFC001436EF /* SQLite */,
+			);
+			productName = Online_university_system_storyboard_1.5;
+			productReference = 473BDA592B084D47001436EF /* Online_university_system_storyboard_1.5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		473BDA512B084D47001436EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					473BDA582B084D47001436EF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 473BDA542B084D47001436EF /* Build configuration list for PBXProject "Online_university_system_storyboard_1.5" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 473BDA502B084D47001436EF;
+			packageReferences = (
+				473BDA762B084FFC001436EF /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
+			productRefGroup = 473BDA5A2B084D47001436EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				473BDA582B084D47001436EF /* Online_university_system_storyboard_1.5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		473BDA572B084D47001436EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473BDA692B084D49001436EF /* LaunchScreen.storyboard in Resources */,
+				473BDA662B084D49001436EF /* Assets.xcassets in Resources */,
+				473BDA642B084D47001436EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473BDA552B084D47001436EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473BDA7A2B08501C001436EF /* Course.swift in Sources */,
+				473BDA9E2B0C1A85001436EF /* ProgramsUpdateViewController.swift in Sources */,
+				473BDA9A2B0C1A1D001436EF /* ProgramsTableViewController.swift in Sources */,
+				473BDAA02B0C1AAA001436EF /* CategoriesTableViewController.swift in Sources */,
+				473BDA612B084D47001436EF /* ViewController.swift in Sources */,
+				473BDAA22B0C1B06001436EF /* CategoriesAddViewController.swift in Sources */,
+				473BDA5D2B084D47001436EF /* AppDelegate.swift in Sources */,
+				473BDA842B094E02001436EF /* CollegesUpdateViewController.swift in Sources */,
+				473BDA752B084FBB001436EF /* DatabaseManager.swift in Sources */,
+				473BDAA82B0C1B7B001436EF /* CoursesAddViewController.swift in Sources */,
+				473BDAA42B0C1B1C001436EF /* CategoriesUpdateViewController.swift in Sources */,
+				473BDA7C2B085049001436EF /* College.swift in Sources */,
+				473BDAA62B0C1B40001436EF /* CoursesTableViewController.swift in Sources */,
+				473BDAAA2B0C1B94001436EF /* CoursesUpdateViewController.swift in Sources */,
+				473BDA802B085088001436EF /* Program.swift in Sources */,
+				473BDA5F2B084D47001436EF /* SceneDelegate.swift in Sources */,
+				473BDA9C2B0C1A74001436EF /* ProgramsAddViewController.swift in Sources */,
+				473BDA7E2B08506F001436EF /* Course_Category.swift in Sources */,
+				473BDA822B0928BC001436EF /* CollegesAddViewController.swift in Sources */,
+				473BDA712B084E18001436EF /* CollegesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		473BDA622B084D47001436EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473BDA632B084D47001436EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		473BDA672B084D49001436EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473BDA682B084D49001436EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		473BDA6B2B084D49001436EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		473BDA6C2B084D49001436EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		473BDA6E2B084D49001436EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Online_university_system_storyboard_1.5/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Online-university-system-storyboard-1-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		473BDA6F2B084D49001436EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Online_university_system_storyboard_1.5/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Online-university-system-storyboard-1-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473BDA542B084D47001436EF /* Build configuration list for PBXProject "Online_university_system_storyboard_1.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473BDA6B2B084D49001436EF /* Debug */,
+				473BDA6C2B084D49001436EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473BDA6D2B084D49001436EF /* Build configuration list for PBXNativeTarget "Online_university_system_storyboard_1.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473BDA6E2B084D49001436EF /* Debug */,
+				473BDA6F2B084D49001436EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		473BDA762B084FFC001436EF /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		473BDA772B084FFC001436EF /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 473BDA762B084FFC001436EF /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 473BDA512B084D47001436EF /* Project object */;
+}
